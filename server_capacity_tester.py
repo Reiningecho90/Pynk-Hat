@@ -6,11 +6,10 @@ import datetime
 import os
 
 """
-website: update-amazon-payments-turu.4nmn.com/?p=m_signin&session_id=32013B7274DBEEA7D466C3D863308DD5975BFA1F&country=US&lang=en
-alternate: jaknet.my.id
-info:
--page is not accessible to anyone that clicks through or enters via a web browser
--page must be accessed via a text message that gets sent to the target/victim
+Plesae use this utility to test the capacity of server ports
+
+Disclaimer:
+I do not take any responsibility for my utilities causing any harm, aiding in anyone's mal intent, and the like.
 """
 
 print('\033[92mASC Basis Detected... DoS Protocol Established \033[92m')
