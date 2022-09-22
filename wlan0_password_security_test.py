@@ -1,6 +1,13 @@
 import subprocess
 from turtle import color
 
+"""
+Please use this utility to test the security of server/ip passwords over wlan0
+
+Disclaimer:
+I do not take any responsibility for my utilities causing any harm, aiding in anyone's mal intent, and the like.
+"""
+
 def get_netpass():
     list_pass = []
     data = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles']).decode('utf-8').split('\n')
